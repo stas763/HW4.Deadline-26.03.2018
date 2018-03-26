@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>HTML персональної сторінки</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
 </head>
-
 <body>
     <header>
-        <h1>Персональна HTML сторінка</h1>
+        <h1>Personal HTML pages</h1>
     </header>
+    <hr>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Text</li>
-            <li>Feedback</li>
-            <li>Contacts</li>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#video">Video</a>
+            </li>
+            <li>
+                <a href="#feedback">Feedback</a>
+            </li>
+            <li>
+                <a href="#contact">Contacts</a>
+            </li>
         </ul>
     </nav>
+    <hr>
     <main>
+        <img src="css/img/main-photo.jpg" title="main-photo" alt="HTML Personal page" />
         <h2>Content</h2>
-        <section class="Home"> 
+    <section class="Home"> 
         <h3>Home</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        
-        <section class="Text">  
-        <h3>Text</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        <section class="Feedback">
+        <p>HTML (HyperText Markup Language) is the most basic building block of the Web. 
+        It describes and defines the content of a webpage along with the basic layout of the webpage. 
+        Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/ behavior</p>
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fs.kleshnov%2Fposts%2F965283973631907&width=500"></iframe>   
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fthewalllviv%2Fposts%2F1999212103651466&width=500"></iframe>
+    </section>
+    <section id="video">  
+        <h3>Video</h3>
+                <video controls="controls" src="Test.mp4"></video>
+    </section>
+    <section class="Feedback">
         <h3>Feedback</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
+        <form method="POST" action="https://formspree.io/s.v.kleshnov@gmail.com">
+                <br>
+            <label>
+                Email:
+            </label>
+            <input name="client-email" type="email" placeholder="Your email"/>
+                <br>
+            <textarea name="message" placeholder="Your message"></textarea>
+                <br>
+                   <button type="submit">Send</button>
+        </form>
+                <p>Tags in HTML are case insensitive. 
+                That is, they can be written in uppercase, lowercase, or a mixture.
+                Example title tag can be written as Title,TiTlEor in any other way.
+                The articles below will help you learn more about HTML.</p>        
+    </section>
         <section class="Contacts">
         <h3>Contacts</h3>
-        <p>Phone</p>
-        <p>Email</p>
-        <p>Address</p>
+        <p>Phone: 0670000000</p>
+        <p>Email: rock.stas@mail.ru</p>
+        <p>Address UPA 72 Lviv</p>
         </section>
     </main>
     <footer>
@@ -50,8 +73,28 @@
             <a href="https://www.instagram.com/kleshnov/" title="Сторінка Instagram">Instagram</a>
             <a href="https://www.youtube.com" title="Сторінка YouTube">YouTube</a>
         </div>
-
     </footer>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

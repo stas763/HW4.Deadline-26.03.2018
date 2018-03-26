@@ -1,5 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
-* {
-    color:red;
+* { 
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: grey;
     }
+    
+img {
+    max-width: 100%;
+    height: auto;
+}    
+
+main {
+    text-align: center
+}
+
